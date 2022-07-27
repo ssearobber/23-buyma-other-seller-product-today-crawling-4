@@ -35,6 +35,7 @@ async function buyma() {
 
     for (let k = 0; k < otherSellerResultArr.length; k++) {
       let oneSellerStartTime = new Date().getTime();
+
       // OtherSellerProduct테이블에서 데이터 취득
       console.log('OtherSellerProduct테이블의 상품ID데이터 취득시작.');
       let objOfproductIdResultArr = [];
